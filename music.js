@@ -19,8 +19,8 @@ class Music {
 
 const musicList = [
     new Music ("California Dreamin'", "Mamas and Papas", "california.jpg", "california.mp3"),
-    new Music ("Hit 'em Up", "Tupac", "tupac.jpg", "hit em up.mp3"),
-    new Music ("Six", "Menace Santana", "six.jpg", "Six.mp3"),
-    new Music ("0.44 Dolar", "Abbas Savage", "abbas.jpg", "44 Dolar.mp3"),
-    new Music ("Mask Off", "Abbas Savage", "abbasmaskoff.jpg", "Mask Off Abbas.mp3")
+    new Music ("Bohemian Rhapsody", "Queen", "bohemian rhapsody.jpg", "Bohemian Rhapsody.mp3"),
+    new Music ("Stayin' Alive", "Bee Gees", "stayinalive.jpg", "Stayin' Alive.mp3"),
+    new Music ("Come Together", "Beatles", "beatles.jpg", "Come Together.mp3"),
+    new Music ("In Dreams", "Roy Orbison", "roy.jpg", "In Dreams.mp3")
 ]

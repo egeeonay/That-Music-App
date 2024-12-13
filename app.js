@@ -37,7 +37,7 @@ function displayMusic(music) {
 play.addEventListener("click", () => {
 
     const isPlaying = musicContainer.classList.contains("playing");
-
+ 
     isPlaying ? pauseMusic() : playMusic();
 })
 
@@ -163,7 +163,7 @@ const displayPlaylist = (list) => {
 }
 
 const selectedMusic = (li) => {
-    player.index = li.getAttribute("li-index");
+    player.index = parseInt(li.getAttribute("li-index"));
     displayMusic(player.getMusic());
     playMusic();
     nowPlaying();
